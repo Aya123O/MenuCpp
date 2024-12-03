@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1733239979 source:/home/aya/Desktop/MenuCpp/main.cpp
+	<iostream>
+	<stdexcept>
+	<cstdio>
+	<conio.h>
+	<windows.h>
+	<unistd.h>
+	<termios.h>
+
