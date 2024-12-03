@@ -140,8 +140,14 @@ bool isValidEmployeeName(const string& name) {
 }
 
 void addEmployee(Stack& stack, int stackSize) {
+
+        cout << "Current stack size: " << stack.getSize() << " / " << stackSize << endl;
+
+
     if (stack.getSize() == stackSize) {
         cout << RED_COLOR << "Stack is full! Cannot push more items." << RESET_COLOR << endl;
+        cout << "Press Enter to return to the menu...";
+        while (getch() != 10);
         return;
     }
 
